@@ -13,12 +13,6 @@ python:
  # Disable  unsupport version 2.6,3.3, 3.2 & pypy on ppc64le
 jobs: 
   exclude:
-    - arch: amd64
-      python: 3.3
-    - arch: amd64
-      python: 3.2
-    - arch: amd64
-      python: 2.6
     - arch: ppc64le
       python: 3.3
     - arch: ppc64le
